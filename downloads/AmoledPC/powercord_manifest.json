@@ -1,0 +1,9 @@
+{
+	"name": "AmoledPC",
+	"description": "Amoled for Discord for Mobile (Android, specifically), ported to Desktop",
+	"version": "0.1.2",
+	"author": "0J3#0001",
+	"license": "AGPL-3.0",
+	"consent": "true",
+	"theme": "Importer.css"
+}

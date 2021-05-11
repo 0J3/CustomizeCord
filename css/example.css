@@ -1,0 +1,49 @@
+/*
+  COPYRIGHT (c) 2021 NORA.LGBT. ALL RIGHTS RESERVED.
+*/
+.theme-dark,
+.theme-light {
+  /*** @ /SCSS/LIB/VARS:TEXT ***/
+  --text-normal: white;
+  --text-muted: #727272;
+  --text-link: #00b0f4;
+  /*** @ /SCSS/LIB/VARS:BG ***/
+  --background-primary: #000000;
+  --background-secondary: #000;
+  --background-secondary-alt: #000;
+  --background-tertiary: #000000;
+  --background-quaternary: #111111;
+  --background-quinary: #070707;
+  --background-accent: #000000;
+  --background-floating: #050505;
+  --background-mobile-primary: #000000;
+  --background-mobile-secondary: #000;
+  --background-modifier-hover: rgba(79, 84, 92, 0.16);
+  --background-modifier-active: rgba(79, 84, 92, 0.24);
+  --background-modifier-selected: rgba(79, 84, 92, 0.32);
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+  --background-mentioned: rgba(250, 166, 26, 0.05);
+  --background-mentioned-hover: rgba(250, 166, 26, 0.08);
+  --background-message-hover: rgba(4, 4, 5, 0.07);
+  --background-help-warning: rgba(250, 166, 26, 0.1);
+  --background-help-info: rgba(0, 176, 244, 0.1);
+  /* Textbox */
+  --channeltextarea-background: var(--background-secondary);
+  /* Scrollbars */
+  --scrollbar-auto-thumb: #000000;
+  --scrollbar-auto-track: rgb(0, 0, 0);
+  --scrollbar-thin-thumb: #000000;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: #202225;
+  --scrollbar-auto-scrollbar-color-track: #2f3136;
+  --toast-background: #0a0a0a;
+  --toast-header: #0c0c0c;
+  --toast-contents: #070707;
+  --toast-box-shadow: rgba(55, 0, 255, 0.281);
+  --toast-border: rgba(0, 0, 0, 0);
+  /*** @ /SCSS/LIB/VARS:HEADER ***/
+  --header-primary: white;
+  --header-secondary: gray;
+}
+
+/*# sourceMappingURL=example.css.map */

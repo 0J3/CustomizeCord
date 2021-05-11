@@ -1,0 +1,45 @@
+/*
+  COPYRIGHT (c) 2021 NORA.LGBT. ALL RIGHTS RESERVED.
+*/
+
+// Import
+@use './internal/vars';
+
+// Fix SCSS replacing CSS functions
+@function gray($value: 100%) {
+  @return #{'grayscale(' + $value + ')'};
+}
+
+@mixin Theme(
+  // bg
+  $bgPrimary: #000000,
+  $bgSecondary: lighten($bgPrimary, 1.3%),
+  $bgSecondary-alt: darken($bgSecondary, 0.5%),
+  $bgTertiary: $bgPrimary,
+  $bgQuaternary: lighten($bgPrimary, 6.5%),
+  $bgQuinary: lighten($bgPrimary, 2.9%),
+  $bgAccent: $bgPrimary,
+  // text
+  $text: invert($bgPrimary),
+  // header
+  $headerPrimary: $text,
+  $headerSecondary: darken($headerPrimary, 50%)
+) {
+  // set settings
+  .theme-dark,
+  .theme-light {
+    @include vars.text($text: $text);
+    @include vars.bg(
+      $primary: $bgPrimary,
+      $secondary: $bgSecondary,
+      $secondary-alt: $bgSecondary,
+      $tertiary: $bgTertiary,
+      $quaternary: $bgQuaternary,
+      $quinary: $bgQuinary
+    );
+    @include vars.header(
+      $headerPrimary: $headerPrimary,
+      $headerSecondary: $headerSecondary
+    );
+  }
+}

@@ -1,0 +1,14 @@
+@use './lib/index';
+
+//
+// backgrounds
+//
+$bgPrimary: #000000;
+$bgSecondary: lighten($bgPrimary, 1.3%);
+$bgSecondary-alt: darken($bgSecondary, 0.5%);
+$bgTertiary: $bgPrimary;
+$bgQuaternary: lighten($bgPrimary, 6.5%);
+$bgQinary: lighten($bgPrimary, 2.9%);
+$bgAccent: $bgPrimary;
+
+@include index.Theme($bgPrimary: $bgPrimary, $bgSecondary: #000);

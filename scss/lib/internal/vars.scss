@@ -1,0 +1,144 @@
+// Fix SCSS replacing CSS functions
+@function gray($value: 100%) {
+  @return #{'grayscale(' + $value + ')'};
+}
+
+@mixin bg(
+  $primary: #000000,
+  $secondary: lighten($primary, 1.3%),
+  $secondary-alt: darken($secondary, 0.5%),
+  $tertiary: $primary,
+  $quaternary: lighten($primary, 6.5%),
+  $quinary: lighten($primary, 2.9%),
+  $accent: $primary,
+  //$accent: #5a55ff,
+  $floating: $primary
+) {
+  /*** @ /SCSS/LIB/VARS:BG ***/
+  --background-primary: #{$primary};
+  --background-secondary: #{$secondary};
+  --background-secondary-alt: #{$secondary-alt};
+  --background-tertiary: #{$tertiary};
+  // not used by discord, used by theme only:
+  --background-quaternary: #{$quaternary};
+  --background-quinary: #{$quinary};
+  --background-accent: #000000;
+  --background-floating: #050505;
+
+  // non-common backgrounds
+  --background-mobile-primary: #{$primary};
+  --background-mobile-secondary: #{$secondary};
+  --background-modifier-hover: rgba(79, 84, 92, 0.16);
+  --background-modifier-active: rgba(79, 84, 92, 0.24);
+  --background-modifier-selected: rgba(79, 84, 92, 0.32);
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+  --background-mentioned: rgba(250, 166, 26, 0.05);
+  --background-mentioned-hover: rgba(250, 166, 26, 0.08);
+  --background-message-hover: rgba(4, 4, 5, 0.07);
+  --background-help-warning: rgba(250, 166, 26, 0.1);
+  --background-help-info: rgba(0, 176, 244, 0.1);
+
+  /* Textbox */
+  --channeltextarea-background: var(--background-secondary);
+
+  /* Scrollbars */
+  --scrollbar-auto-thumb: #{$floating};
+  --scrollbar-auto-track: rgb(0, 0, 0);
+  --scrollbar-thin-thumb: #{$primary};
+
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: #202225;
+  --scrollbar-auto-scrollbar-color-track: #2f3136;
+
+  --toast-background: #0a0a0a;
+  --toast-header: #0c0c0c;
+  --toast-contents: #070707;
+  --toast-box-shadow: rgba(55, 0, 255, 0.281);
+  --toast-border: rgba(0, 0, 0, 0);
+}
+
+@mixin text(
+  $text,
+  $muted: darken($text, 55.4%),
+  //default: #72767d
+  $link: #00b0f4
+) {
+  /*** @ /SCSS/LIB/VARS:TEXT ***/
+  --text-normal: #{$text};
+  --text-muted: #{$muted};
+  --text-link: #{$link};
+}
+@mixin header(
+  $headerPrimary: #ffffff,
+  $headerSecondary: darken($headerPrimary, 50%)
+) {
+  /*** @ /SCSS/LIB/VARS:HEADER ***/
+  --header-primary: #{$headerPrimary};
+  --header-secondary: #{$headerSecondary};
+}
+@mixin channels($default: #8e9297) {
+  /*** @ /SCSS/LIB/VARS:CHANNELS ***/
+  --channels-default: #{$default};
+}
+@mixin interactive(
+  $normal: #b9bbbe,
+  $hover: #dcddde,
+  $active: #fff,
+  $muted: #4f545c
+) {
+  /*** @ /SCSS/LIB/VARS:INTERACTIVE ***/
+  --interactive-normal: #{$normal};
+  --interactive-hover: #{$hover};
+  --interactive-active: #{$active};
+  --interactive-muted: #{$muted};
+}
+@mixin logo($primary: #fff) {
+  /*** @ /SCSS/LIB/VARS:LOGO ***/
+  --logo-primary: #{$primary};
+}
+@mixin elevation(
+  $stroke: #{0 0 0 1px rgba(4, 4, 5, 0.15)},
+  $low: #{0 1px 0 rgba(4, 4, 5, 0.2),
+  0 1.5px 0 rgba(6, 6, 7, 0.05),
+  0 2px 0 rgba(4, 4, 5, 0.05)},
+  $medium: #{0 4px 4px rgba(0, 0, 0, 0.16)},
+  $high: #{0 8px 16px rgba(0, 0, 0, 0.24)}
+) {
+  /*** @ /SCSS/LIB/VARS:ELEVATION ***/
+  --elevation-stroke: #{$stroke};
+  --elevation-low: #{$low};
+  --elevation-medium: #{$medium};
+  --elevation-high: #{$high};
+}
+@mixin focus($primary: #00b0f4) {
+  /*** @ /SCSS/LIB/VARS:FOCUS ***/
+  --focus-primary: #{$primary};
+}
+@mixin other(
+  $radioGroupDotForeground: #8ea1e1,
+  $guildHeaderTextShadow: #{0 1px 1px rgba(0, 0, 0, 0.4)},
+  $activityCardBackground: #202225,
+  $textboxMarkdownSyntax: #8e9297
+) {
+  /*** @ /SCSS/LIB/VARS:OTHER ***/
+  --radio-group-dot-foreground: #{$radioGroupDotForeground};
+  --guild-header-text-shadow: #{$guildHeaderTextShadow};
+  --activity-card-background: #{$activityCardBackground};
+  --textbox-markdown-syntax: #{$textboxMarkdownSyntax};
+}
+@mixin deprecatedProps {
+  .theme-dark,
+  .theme-light {
+    /*** @ /SCSS/LIB/VARS:DEPRECATEDPROPS ***/
+    --deprecated-card-bg: rgba(32, 34, 37, 0.6);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+  }
+}

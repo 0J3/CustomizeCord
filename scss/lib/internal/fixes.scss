@@ -2,6 +2,10 @@
   @return #{$num + 'ms'};
 }
 
+@function gray($value: 100%) {
+  @return #{'grayscale(' + $value + ')'};
+}
+
 @mixin Fixes($bg) {
   /*** @ /SCSS/LIB/FIXES:FIXES ***/
   /* Uncategorized */
@@ -54,8 +58,8 @@
   .autocomplete-1vrmpx {
     background: var(--background-secondary) !important;
   }
-  @for $i from 1 to 25 {
-    $length: 500 * $i;
+  @for $i from 1 to 10 {
+    $length: 200 * $i;
     @keyframes inAnim-base-selectable-#{$i} {
       0% {
         opacity: 0;
@@ -98,23 +102,16 @@
   }
   .base-1pYU8j.selectable-3dP3y- {
     background: var(--background-secondary) !important;
-    filter: gray() blur(2px);
-    // left: 0;
+    filter: blur(2px) gray();
+    margin-left: 0;
+    margin-right: 15px;
     transition: all 500ms;
   }
   .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
     background: var(--background-quaternary) !important;
     filter: none;
-    // left: 15px;
-  }
-  .autocompleteRowContent-1AMstF {
-    left: 0;
-    position: relative;
-    transition: all 500ms;
-  }
-  .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07
-    .autocompleteRowContent-1AMstF {
-    left: 15px;
+    margin-left: 15px;
+    margin-right: 0;
   }
 
   /* My Account */

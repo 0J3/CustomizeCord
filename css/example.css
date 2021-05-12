@@ -1,3 +1,12 @@
+/**
+ * @name AmoledBD2
+ * @description An Amoled theme for BD (and powercord)
+ * @author 0J3#0001
+ * @version 0.1.1
+ * @website https://discord.gg/uPCVMKDSVM
+ * @source https://github.com/0J3/AmoledBD/tree/master
+ * @updateUrl https://0J3.github.io/AmoledBD/downloads/AmoledBD.theme.css
+ */
 /*
   COPYRIGHT (c) 2021 NORA.LGBT. ALL RIGHTS RESERVED.
 */
@@ -112,7 +121,7 @@
     opacity: 0;
     left: -10px;
   }
-  0.2% {
+  0.5% {
     opacity: 0;
     left: -10px;
   }
@@ -123,11 +132,71 @@
 }
 .autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(1) .base-1pYU8j.selectable-3dP3y- {
   animation-name: inAnim-base-selectable-1;
-  animation-duration: 500ms;
+  animation-duration: 200ms;
   position: relative;
 }
 
 @keyframes inAnim-base-selectable-2 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.25% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(2) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-2;
+  animation-duration: 400ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-3 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.1666666667% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(3) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-3;
+  animation-duration: 600ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-4 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.125% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(4) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-4;
+  animation-duration: 800ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-5 {
   0% {
     opacity: 0;
     left: -10px;
@@ -141,69 +210,9 @@
     left: 0;
   }
 }
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(2) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-2;
-  animation-duration: 1000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-3 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0666666667% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(3) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-3;
-  animation-duration: 1500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-4 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.05% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(4) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-4;
-  animation-duration: 2000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-5 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.04% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
 .autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(5) .base-1pYU8j.selectable-3dP3y- {
   animation-name: inAnim-base-selectable-5;
-  animation-duration: 2500ms;
+  animation-duration: 1000ms;
   position: relative;
 }
 
@@ -212,7 +221,7 @@
     opacity: 0;
     left: -10px;
   }
-  0.0333333333% {
+  0.0833333333% {
     opacity: 0;
     left: -10px;
   }
@@ -223,7 +232,7 @@
 }
 .autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(6) .base-1pYU8j.selectable-3dP3y- {
   animation-name: inAnim-base-selectable-6;
-  animation-duration: 3000ms;
+  animation-duration: 1200ms;
   position: relative;
 }
 
@@ -232,7 +241,7 @@
     opacity: 0;
     left: -10px;
   }
-  0.0285714286% {
+  0.0714285714% {
     opacity: 0;
     left: -10px;
   }
@@ -243,7 +252,7 @@
 }
 .autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(7) .base-1pYU8j.selectable-3dP3y- {
   animation-name: inAnim-base-selectable-7;
-  animation-duration: 3500ms;
+  animation-duration: 1400ms;
   position: relative;
 }
 
@@ -252,7 +261,7 @@
     opacity: 0;
     left: -10px;
   }
-  0.025% {
+  0.0625% {
     opacity: 0;
     left: -10px;
   }
@@ -263,7 +272,7 @@
 }
 .autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(8) .base-1pYU8j.selectable-3dP3y- {
   animation-name: inAnim-base-selectable-8;
-  animation-duration: 4000ms;
+  animation-duration: 1600ms;
   position: relative;
 }
 
@@ -272,7 +281,7 @@
     opacity: 0;
     left: -10px;
   }
-  0.0222222222% {
+  0.0555555556% {
     opacity: 0;
     left: -10px;
   }
@@ -283,329 +292,23 @@
 }
 .autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(9) .base-1pYU8j.selectable-3dP3y- {
   animation-name: inAnim-base-selectable-9;
-  animation-duration: 4500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-10 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.02% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(10) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-10;
-  animation-duration: 5000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-11 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0181818182% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(11) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-11;
-  animation-duration: 5500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-12 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0166666667% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(12) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-12;
-  animation-duration: 6000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-13 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0153846154% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(13) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-13;
-  animation-duration: 6500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-14 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0142857143% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(14) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-14;
-  animation-duration: 7000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-15 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0133333333% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(15) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-15;
-  animation-duration: 7500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-16 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0125% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(16) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-16;
-  animation-duration: 8000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-17 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0117647059% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(17) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-17;
-  animation-duration: 8500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-18 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0111111111% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(18) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-18;
-  animation-duration: 9000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-19 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0105263158% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(19) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-19;
-  animation-duration: 9500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-20 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.01% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(20) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-20;
-  animation-duration: 10000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-21 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0095238095% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(21) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-21;
-  animation-duration: 10500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-22 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0090909091% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(22) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-22;
-  animation-duration: 11000ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-23 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0086956522% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(23) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-23;
-  animation-duration: 11500ms;
-  position: relative;
-}
-
-@keyframes inAnim-base-selectable-24 {
-  0% {
-    opacity: 0;
-    left: -10px;
-  }
-  0.0083333333% {
-    opacity: 0;
-    left: -10px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(24) .base-1pYU8j.selectable-3dP3y- {
-  animation-name: inAnim-base-selectable-24;
-  animation-duration: 12000ms;
+  animation-duration: 1800ms;
   position: relative;
 }
 
 .base-1pYU8j.selectable-3dP3y- {
   background: var(--background-secondary) !important;
-  filter: gray() blur(2px);
+  filter: blur(2px) grayscale(100%);
+  margin-left: 0;
+  margin-right: 15px;
   transition: all 500ms;
 }
 
 .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
   background: var(--background-quaternary) !important;
   filter: none;
-}
-
-.autocompleteRowContent-1AMstF {
-  left: 0;
-  position: relative;
-  transition: all 500ms;
-}
-
-.base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 .autocompleteRowContent-1AMstF {
-  left: 15px;
+  margin-left: 15px;
+  margin-right: 0;
 }
 
 /* My Account */

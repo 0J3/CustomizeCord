@@ -44,6 +44,591 @@
   /*** @ /SCSS/LIB/VARS:HEADER ***/
   --header-primary: white;
   --header-secondary: gray;
+  /*** @ /SCSS/LIB/VARS:INTERACTIVE ***/
+  --interactive-normal: #b9bbbe;
+  --interactive-hover: #dadbdd;
+  --interactive-active: #fff;
+  --interactive-muted: #4f545c;
+}
+
+/*** @ /SCSS/LIB/FIXES:FIXES ***/
+/* Uncategorized */
+.uploadModal-2ifh8j,
+.footer-3mqk7D,
+.footer-2gL1pp,
+.root-1gCeng,
+.bd-addon-error,
+.peopleList-3c4jOR,
+.colorDark-1yVQpk {
+  background: var(--background-primary) !important;
+  box-shadow: none !important;
+}
+
+.container-6sXIoE.withTimeline-824fT_ {
+  border-bottom: none !important;
+}
+
+.cardPrimary-1Hv-to,
+.cardPrimaryEditable-3KtE4g {
+  background: var(--background-quinary) !important;
+}
+
+/* SPOILERS */
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+  background: var(--background-secondary) !important;
+}
+
+.spoilerText-3p6IlD.hidden-HHr2R9:hover {
+  background: var(--background-secondary) !important;
+}
+
+.spoilerText-3p6IlD,
+.root-1gCeng {
+  background-color: var(--background-quinary) !important;
+}
+
+/* Payment Pane */
+.paymentPane-3bwJ6A,
+.codeRedemptionRedirect-1wVR4b {
+  background-color: var(--background-quinary) !important;
+}
+
+/* Voice & Video */
+.notches-1sAcEM.gray-3_LNYR {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23000000ff'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E") !important;
+}
+
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  background: var(--background-secondary) !important;
+}
+
+/* MENTION AUTOCOMPLET */
+.autocomplete-1vrmpx {
+  background: var(--background-secondary) !important;
+}
+
+@keyframes inAnim-base-selectable-1 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.2% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(1) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-1;
+  animation-duration: 500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-2 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.1% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(2) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-2;
+  animation-duration: 1000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-3 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0666666667% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(3) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-3;
+  animation-duration: 1500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-4 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.05% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(4) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-4;
+  animation-duration: 2000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-5 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.04% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(5) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-5;
+  animation-duration: 2500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-6 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0333333333% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(6) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-6;
+  animation-duration: 3000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-7 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0285714286% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(7) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-7;
+  animation-duration: 3500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-8 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.025% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(8) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-8;
+  animation-duration: 4000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-9 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0222222222% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(9) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-9;
+  animation-duration: 4500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-10 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.02% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(10) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-10;
+  animation-duration: 5000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-11 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0181818182% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(11) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-11;
+  animation-duration: 5500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-12 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0166666667% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(12) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-12;
+  animation-duration: 6000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-13 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0153846154% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(13) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-13;
+  animation-duration: 6500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-14 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0142857143% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(14) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-14;
+  animation-duration: 7000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-15 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0133333333% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(15) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-15;
+  animation-duration: 7500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-16 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0125% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(16) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-16;
+  animation-duration: 8000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-17 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0117647059% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(17) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-17;
+  animation-duration: 8500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-18 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0111111111% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(18) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-18;
+  animation-duration: 9000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-19 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0105263158% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(19) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-19;
+  animation-duration: 9500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-20 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.01% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(20) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-20;
+  animation-duration: 10000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-21 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0095238095% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(21) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-21;
+  animation-duration: 10500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-22 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0090909091% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(22) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-22;
+  animation-duration: 11000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-23 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0086956522% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(23) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-23;
+  animation-duration: 11500ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-24 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0083333333% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(24) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-24;
+  animation-duration: 12000ms;
+  position: relative;
+}
+
+.base-1pYU8j.selectable-3dP3y- {
+  background: var(--background-secondary) !important;
+  filter: gray() blur(2px);
+  transition: all 500ms;
+}
+
+.base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
+  background: var(--background-quaternary) !important;
+  filter: none;
+}
+
+/* My Account */
+.colorGrey-2DXtkV {
+  background: var(--background-quaternary) !important;
+}
+
+/* Game Activity */
+/* > NO GAME */
+.notDetected-33MY4s {
+  background: var(--background-quaternary) !important;
+}
+
+/* User Modal */
+.headerNormal-T_seeN {
+  background: var(--background-primary) !important;
+}
+
+.body-3iLsc4,
+.footer-1fjuF6 {
+  background: var(--background-secondary) !important;
+}
+
+/*** BBD Only ***/
+/* Monaco Editor */
+.monaco-editor,
+.monaco-editor-background,
+.monaco-editor .inputarea.ime-input {
+  background: var(--background-quaternary) !important;
+}
+
+.monaco-editor .margin-view-overlays {
+  background: var(--background-quinary) !important;
 }
 
 /*# sourceMappingURL=example.css.map */

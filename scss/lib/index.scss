@@ -4,6 +4,7 @@
 
 // Import
 @use './internal/vars';
+@use './internal/fixes';
 
 // Fix SCSS replacing CSS functions
 @function gray($value: 100%) {
@@ -23,9 +24,14 @@
   $text: invert($bgPrimary),
   // header
   $headerPrimary: $text,
-  $headerSecondary: darken($headerPrimary, 50%)
+  $headerSecondary: darken($headerPrimary, 50%),
+  // interactive
+  $interactiveNormal: #b9bbbe,
+  $interactiveHover: lighten($interactiveNormal, 12.5%),
+  $interactiveActive: #fff,
+  $interactiveMuted: #4f545c
 ) {
-  // set settings
+  // set settings #dcddde
   .theme-dark,
   .theme-light {
     @include vars.text($text: $text);
@@ -41,5 +47,13 @@
       $headerPrimary: $headerPrimary,
       $headerSecondary: $headerSecondary
     );
+    @include vars.interactive(
+      $normal: #{$interactiveNormal},
+      $hover: #{$interactiveHover},
+      $active: #{$interactiveActive},
+      $muted: #{$interactiveMuted}
+    );
   }
+  // fixes
+  @include fixes.Fixes($bgPrimary);
 }

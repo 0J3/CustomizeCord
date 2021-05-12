@@ -1,4 +1,9 @@
-@mixin Fixes {
+@function toMS($num) {
+  @return #{$num + 'ms'};
+}
+
+@mixin Fixes($bg) {
+  /*** @ /SCSS/LIB/FIXES:FIXES ***/
   /* Uncategorized */
   .uploadModal-2ifh8j,
   .footer-3mqk7D,
@@ -38,7 +43,7 @@
 
   /* Voice & Video */
   .notches-1sAcEM.gray-3_LNYR {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23#{$bg}'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23000000ff'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E") !important;
   }
 
   .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
@@ -49,14 +54,58 @@
   .autocomplete-1vrmpx {
     background: var(--background-secondary) !important;
   }
+  @for $i from 1 to 25 {
+    $length: 500 * $i;
+    @keyframes inAnim-base-selectable-#{$i} {
+      0% {
+        opacity: 0;
+        left: -10px;
+      }
+      #{100/$length + '%'} {
+        opacity: 0;
+        left: -10px;
+      }
+      100% {
+        opacity: 1;
+        left: 0;
+      }
+    }
+    .autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(#{$i})
+      .base-1pYU8j.selectable-3dP3y- {
+      animation-name: inAnim-base-selectable-#{$i};
+      animation-duration: #{toMS($length)};
+
+      position: relative;
+    }
+    // @keyframes inAnim-base-selectable2-#{$i} {
+    //   0% {
+    //     left: -10px;
+    //   }
+    //   #{100/$length + '%'} {
+    //     left: -10px;
+    //   }
+    //   100% {
+    //     left: 15px;
+    //   }
+    // }
+    // .autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(#{$i})
+    //   .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
+    //   animation-name: inAnim-base-selectable2-#{$i};
+    //   animation-duration: #{toMS($length)};
+
+    //   position: relative;
+    // }
+  }
   .base-1pYU8j.selectable-3dP3y- {
     background: var(--background-secondary) !important;
     filter: gray() blur(2px);
-    transition: blur 1s;
+    // left: 0;
+    transition: all 500ms;
   }
   .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
     background: var(--background-quaternary) !important;
     filter: none;
+    // left: 15px;
   }
 
   /* My Account */

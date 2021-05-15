@@ -15,9 +15,19 @@
   .root-1gCeng,
   .bd-addon-error,
   .peopleList-3c4jOR,
-  .colorDark-1yVQpk {
+  .colorDark-1yVQpk,
+  .message-2qRu38,
+  #ADD_FRIEND-tab {
     background: var(--background-primary) !important;
     box-shadow: none !important;
+  }
+  .inner-1ilYF7,
+  .keyboardShortcutsModal-3piNz7 {
+    background: var(--background-secondary-alt) !important;
+  }
+  .keybindShortcut-1BD6Z1 span {
+    box-shadow: inset 0 -4px 0 var(--background-primary) !important;
+    -webkit-box-shadow: inset 0 -4px 0 var(--background-primary) !important;
   }
   .container-6sXIoE.withTimeline-824fT_ {
     border-bottom: none !important;

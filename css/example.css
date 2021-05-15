@@ -18,15 +18,15 @@
   --text-link: #00b0f4;
   /*** @ /SCSS/LIB/VARS:BG ***/
   --background-primary: #000000;
-  --background-secondary: #000;
-  --background-secondary-alt: #000;
+  --background-secondary: #030303;
+  --background-secondary-alt: #030303;
   --background-tertiary: #000000;
   --background-quaternary: #111111;
   --background-quinary: #070707;
-  --background-accent: #000000;
+  --background-accent: #040404;
   --background-floating: #050505;
   --background-mobile-primary: #000000;
-  --background-mobile-secondary: #000;
+  --background-mobile-secondary: #030303;
   --background-modifier-hover: rgba(79, 84, 92, 0.16);
   --background-modifier-active: rgba(79, 84, 92, 0.24);
   --background-modifier-selected: rgba(79, 84, 92, 0.32);
@@ -39,8 +39,8 @@
   /* Textbox */
   --channeltextarea-background: var(--background-secondary);
   /* Scrollbars */
-  --scrollbar-auto-thumb: #000000;
-  --scrollbar-auto-track: rgb(0, 0, 0);
+  --scrollbar-auto-thumb: #050505;
+  --scrollbar-auto-track: #030303;
   --scrollbar-thin-thumb: #000000;
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: #202225;
@@ -68,9 +68,20 @@
 .root-1gCeng,
 .bd-addon-error,
 .peopleList-3c4jOR,
-.colorDark-1yVQpk {
+.colorDark-1yVQpk,
+#ADD_FRIEND-tab {
   background: var(--background-primary) !important;
   box-shadow: none !important;
+}
+
+.inner-1ilYF7,
+.keyboardShortcutsModal-3piNz7 {
+  background: var(--background-secondary-alt) !important;
+}
+
+.keybindShortcut-1BD6Z1 span {
+  box-shadow: inset 0 -4px 0 var(--background-primary) !important;
+  -webkit-box-shadow: inset 0 -4px 0 var(--background-primary) !important;
 }
 
 .container-6sXIoE.withTimeline-824fT_ {

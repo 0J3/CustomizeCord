@@ -21,4 +21,4 @@ $bgQuaternary: lighten($bgPrimary, 6.5%);
 $bgQinary: lighten($bgPrimary, 2.9%);
 $bgAccent: $bgPrimary;
 
-@include index.Theme($bgPrimary: $bgPrimary, $bgSecondary: #000);
+@include index.Theme($bgPrimary: $bgPrimary);
